@@ -5,7 +5,8 @@ A single file script made to move any published articles from one Intercom works
 
 ## Instructions
 
-#### 1. Grabbing Articles Author ID.
+
+### 1. Grabbing Articles Author ID.
 
 This must be an authenticated admin of Intercom with a valid seat. You can grab this by going to the respective teammates "inbox" in Intercom and grabbing this part of the URL:
 
@@ -15,7 +16,7 @@ This integer should replace the value for `author_id` in line 11 of the `script.
 ![image](https://user-images.githubusercontent.com/13723600/133684525-9af59dcb-ac2e-405f-8f02-e0d0d3fe3b37.png)
 
 
-#### 2. Access Tokens. 
+### 2. Access Tokens. 
 These can be grabbed from the **[Developer Hub in Intercom](https://app.intercom.com/a/apps/v2woedlx/developer-hub)**:
 ![image](https://user-images.githubusercontent.com/13723600/133684864-ccd1317f-5c5f-4020-9671-9d7b0d0a0df2.png)
 
