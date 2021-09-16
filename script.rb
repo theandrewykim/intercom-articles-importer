@@ -14,7 +14,7 @@ exported_articles = export_workspace.articles.all
 
 exported_articles.each do |export_article|
     if export_article.state == "published"
-        import_workspace.articles.create({
+       imported_article = import_workspace.articles.create({
             title: export_article.title, 
             body: export_article.body,
             parent_type: "collection", 
@@ -22,6 +22,8 @@ exported_articles.each do |export_article|
             state: "draft",
             author_id: author_id
         })
+        print "\n Copying Article #{imported_article.title}"
     end
+    "All done! Check out your Articles in Intercom!"
 end
 
