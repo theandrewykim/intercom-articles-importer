@@ -5,9 +5,9 @@ A single file script made to move any published articles from one Intercom works
 
 ## Instructions
 
-#### 1. Grabbing necessary keys/information.
+#### 1. Grabbing Articles Author ID.
 
-1. Author of Articles. This must be an authenticated admin of Intercom with a valid seat. You can grab this by going to the respective teammates "inbox" in Intercom and grabbing this part of the URL:
+This must be an authenticated admin of Intercom with a valid seat. You can grab this by going to the respective teammates "inbox" in Intercom and grabbing this part of the URL:
 
 ![image](https://user-images.githubusercontent.com/13723600/133684449-98fcb3c3-9b10-4471-822a-fc04a084bfc1.png)
 
