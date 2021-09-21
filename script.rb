@@ -22,7 +22,7 @@ exported_articles.each do |export_article|
                 parent_type: "collection", 
                 parent_id: collection.id,
                 state: "draft",
-            author_id: author_id
+                author_id: author_id
             })
             print "\n Copying Article #{imported_article.title}"
         rescue
