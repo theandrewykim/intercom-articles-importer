@@ -16,8 +16,7 @@ This must be an authenticated admin of Intercom with a valid seat. You can grab 
 
 ![image](https://user-images.githubusercontent.com/13723600/133684449-98fcb3c3-9b10-4471-822a-fc04a084bfc1.png)
 
-This integer should replace the value for `author_id` in line 4 of the `init.rb` file: 
-![image](https://user-images.githubusercontent.com/13723600/133684525-9af59dcb-ac2e-405f-8f02-e0d0d3fe3b37.png)
+This integer should replace the value for `AUTHOR_ID` in line 4 of the `init.rb` file.
 
 
 ### 2. Access Tokens. 
