@@ -14,7 +14,7 @@ Feel free to open any issues with feature requests or problems
 
 This must be an authenticated admin of Intercom with a valid seat. You can grab this by going to the respective teammates "inbox" in Intercom and grabbing this part of the URL:
 
-![image](https://user-images.githubusercontent.com/13723600/133684449-98fcb3c3-9b10-4471-822a-fc04a084bfc1.png)
+![image](https://user-images.githubusercontent.com/13723600/137182655-0ea088f4-c292-4b38-9fa7-5aed63414e03.png)
 
 This integer should replace the value for `AUTHOR_ID` in line 4 of the `init.rb` file.
 
