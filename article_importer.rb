@@ -21,8 +21,8 @@ module ArticleImporter
                     })
                     print "\n Copying Article #{imported_article.title}"
                     self.set_article_to_be_transformed(article_collection, exported_article.body, exported_article.id, imported_article.id) if REPLACE_ARTICLE_URLS
-                rescue
-                    print "\nFailed to import article...moving on"
+                rescue => error
+                    print "\nFailed to import article (#{error.message}) ...moving on"
                     failed_articles << exported_article.title
                  end
             end
