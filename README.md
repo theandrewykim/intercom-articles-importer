@@ -12,7 +12,7 @@ Feel free to open any issues with feature requests or problems
 
 ### 1. Grabbing Articles Author ID.
 
-This must be an authenticated admin of Intercom with a valid seat. You can grab this by going to the respective teammates "inbox" in Intercom and grabbing this part of the URL:
+This must be an authenticated admin of Intercom with a valid seat. You can grab this by going to the respective teammates "inbox" in the destination Intercom account and grabbing this part of the URL:
 
 ![image](https://user-images.githubusercontent.com/13723600/137182655-0ea088f4-c292-4b38-9fa7-5aed63414e03.png)
 
